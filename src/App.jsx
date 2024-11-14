@@ -28,7 +28,7 @@ function App() {
           </button>
           <p className="count">{count}</p>
           <button className="plus" onClick={incr}>
-            {count < 10 ? "+" : " "}
+            {count < 10 ? "+" : (className = "hide")}
           </button>
         </div>
 
